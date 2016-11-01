@@ -1,7 +1,7 @@
 # Agenda:
  - Video Lunch (Christof)
   - Bsp.: https://vimeo.com/131640714
- - Telefon Buch (Tino) #
+ - Telefon Buch (Tino)
  
 # Ideen:
    - F# Projektstruktur
