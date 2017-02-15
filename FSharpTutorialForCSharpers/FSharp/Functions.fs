@@ -14,8 +14,15 @@ module Functions =
     let AplusB_Partial a = (+) a        // : a:int -> (int -> int)
     let summe3 = AplusB_Partial 1 2     // -> ist linksassoziativ, die Klammern sind daher optional
 
+    let summe_xx = AplusB_Partial 5
+    let summy_yy = summe_xx 3
+
     let AplusB_Alias = (+)              // : (int -> int -> int)
     let summe4 = AplusB_Alias 1 2
+
+    let (+=+) a b = a + b - 5
+
+    let xx = 5 +=+ 3
 
     // Vergleiche (int -> int) -> int
     let OnePlusMapTwo f = 1 + (f 2)     // : f:(int -> int) -> int
