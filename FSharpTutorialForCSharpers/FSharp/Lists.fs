@@ -23,7 +23,7 @@ module Collections =
     let elem1stUnsafe = List.head squares
     let elemt1stFailing = List.head empty
 
-    let elem1stOptional = List.tryHead empty
+    let elem1stOptional = List.head empty
             
     // let elem1st :: _ = squares // --> compiler error
     let elem1stMatched = match empty with
